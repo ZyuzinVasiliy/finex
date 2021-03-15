@@ -1,0 +1,29 @@
+
+.block {
+  &__icon {
+    &--red {
+      background: #fce8e8;
+      fill: #e21212;
+    }
+    &--blue-dark {
+      background: #f2f4fe;
+      fill: #7893f3;
+    }
+    &--blue-light {
+      background: #f4fcfe;
+      fill: #8bdef0;
+    }
+    &--blue {
+      background: #e6f6ff;
+      fill: #00a8ff;
+    }
+    &--orange {
+      background: #fff2e6;
+      fill: #ff7a00;
+    }
+    &--violet {
+      background: #fef2fd;
+      fill: #f378ee;
+    }
+  }
+}

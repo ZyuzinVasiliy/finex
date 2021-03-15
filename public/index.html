@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+        <meta name="format-detection" content="telephone=no">
+
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:300,400,500,700&amp;display=swap&amp;subset=cyrillic" rel="stylesheet">
+        <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+
+        <title>Финансовые эксперты</title>
+
+        <script src="<%= BASE_URL %>src/js/moment.min.js"></script>
+        <script>
+            if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) {
+                document.write('<script src="<%= BASE_URL %>src/js/svg4everybody.js"><\/script>');
+                window.onload = function () {
+                    svg4everybody();
+                };
+            }
+        </script>
+
+    </head>
+
+    <body>
+        <noscript>
+            <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+        </noscript>
+        <div id="app"></div>
+        <!-- built files will be auto injected -->
+    </body>
+
+</html>
